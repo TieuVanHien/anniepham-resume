@@ -1,0 +1,547 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url("image/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+body ul {
+    list-style: none;
+}
+
+.header .nar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    background-color: black;
+}
+
+.header .logo a {
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+}
+
+.header .menu ul {
+    margin-left: 700px;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    margin-left: 60px;
+    align-items: center;
+}
+
+.header .menu ul li a{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.header .menu ul li a:hover {
+    color: dodgerblue;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+
+}
+
+.header .logo a {
+    font-size: 25px;
+}
+
+.header .logo span {
+    position: relative;
+    bottom: 5px;
+    transition: 0.5s;
+
+}
+.header .logo span:hover {
+    transition: 0.5s;
+    color: cornflowerblue;
+    border-radius: 40px;
+}
+
+
+.cvinfo .photo img {
+    width: 180px;
+    height: 170px;
+    margin-left: 35px;
+    margin-top: 15px;
+
+}
+
+.cvinfo .photo img {
+    border-radius: 20px;
+}
+
+.cvinfo .text {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.cvinfo {
+    border-right: inset white;
+    width: 250px;
+}
+.info1 .text {
+    position: relative;
+    right: 20px;
+    color: white;
+}
+
+.info1 .icon {
+    position: relative;
+    right: 20px;
+    color: #9153c9;
+}
+
+.info1 .icon i {
+    align-items: center;
+}
+
+.icon {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.info1 #icon1 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+}
+
+.info1 #icon2 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+}
+
+.cvinfo .info1 .icon i:hover {
+    color: #292b2f;
+    transition: 0.5s;
+    transform: rotate(360deg);
+
+}
+
+.cvinfo .info1  .icon:hover {
+    background-color: #292b2f;
+}
+
+.info1 #icon3 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+}
+
+#info2 {
+    margin-top: 10px;
+}
+
+
+#info3 {
+    margin-top: 10px;
+}
+
+.info1 .icon {
+    position: relative;
+    bottom: 13px;
+    right: 20px;
+    border-radius: 20px;
+}
+
+.cvinfo  .info1 .text{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.cvinfo .info1 {
+    display: flex;
+}
+
+.contactText h1 {
+    margin-left: 130px;
+    color: #3525af;
+}
+.contactText h1:hover {
+    color: white;
+    transition: 0.5s;
+    text-decoration: underline white;
+}
+
+.skill .skillHeader h1:hover {
+    color: white;
+    transition: 0.5s;
+    text-decoration: underline white;
+}
+
+.resume {
+    border: outset black;
+    background: #292b2f;
+    width: 883px;
+    height: 800px;
+    display: flex;
+    position: relative;
+    left: 350px;
+    top: 70px;
+    margin-bottom: 50px;
+    color: #9153c9;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 15px;
+    box-shadow: 5px 5px dimgray ;
+}
+
+.aboutMe h3 {
+    width: 600px;
+    padding-left: 10px;
+    height: 300px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+}
+
+.aboutMe {
+    width: 600px;
+    height:auto;
+    background-color: #292b2f;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+.skill  {
+    position: relative;
+    right: 15px;
+
+}
+
+.skill .skillHeader h1 {
+    position: relative;
+    left: 180px;
+    color: #3525af ;
+}
+
+.skill li {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+
+.skill ul li:hover {
+    background-color: dodgerblue;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+
+.skill ul li {
+   text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.skill li i {
+    width: 50px;
+    height: 50px;
+}
+
+.skill .col1 {
+    display: flex;
+
+}
+.skill img {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    padding-top: 3px;
+}
+
+#col01  {
+    margin-right: 20px;
+}
+#col02 {
+    margin-right: 20px;
+}
+
+.skill .col2 {
+    display: flex;
+}
+.skill ul li span {
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+#span1 {
+    position: relative;
+    top: 30px;
+    right: 25px;
+}
+
+#img1 {
+    position: relative;
+    left: 18px;
+    top: 5px;
+}
+
+#span2 {
+    position: relative;
+    top: 30px;
+    right: 25px;
+}
+#img2 {
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#span3 {
+    position: relative;
+    top: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#img3 {
+    position: relative;
+    top: 5px;
+    right: 2.5px;
+}
+
+#span4 {
+    position: relative;
+    top: 15px;
+}
+
+#img4 {
+    position: relative;
+    top: 5px;
+
+}
+
+.education {
+    padding-top: 3px;
+    width: 630px;
+    background-color: white;
+    height: 607px;
+    position: relative;
+    bottom: 145px;
+    border-right: solid black;
+}
+
+.education span {
+    width: 300px;
+    position: relative;
+    top: 80px;
+    left: 15px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.volunteer  {
+    position: relative;
+    top: 100px;
+}
+
+.education h1 {
+    float: right;
+    margin-right: 20px;
+    color: #3525af;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.aboutMe .education h1:before {
+    content: "";
+    width: 5px;
+    height: 170px;
+    position:absolute;
+    bottom: 386.5px;
+    right: 143.5px;
+    border-radius: 5px;
+    background-color: #9153c9;
+}
+
+.education1 {
+    margin-left: 70px;
+}
+
+
+.education2 {
+    margin-left: 70px;
+    color: black;
+}
+
+.education1 {
+    color: black;
+}
+
+.education1 {
+    position: relative;
+    bottom: 30px;
+}
+
+.education h2 {
+    float: right;
+    margin-right: 20px;
+    color: #3525af;
+    font-size: 2.0em;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.volunteer h2:before{
+    content: "";
+    width: 5px;
+    height: 225px;
+    position:absolute;
+    top: 55px;
+    right: 142.5px;
+    border-radius: 5px;
+    background-color: #9153c9;
+}
+
+#volunHeader {
+    font-size: 1.8em;
+    position: relative;
+    top: 2px;
+
+}
+
+.info {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+
+}
+
+.info {
+    position: relative;
+    top: 120px;
+}
+.info .social  a img {
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
+
+}
+
+.info .email form input[type="submit"] {
+    position: relative;
+    top: 20px;
+    right: 75px;
+}
+
+.info .email form input[type="submit"] {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: inset deepskyblue;
+}
+
+.info {
+    display: flex;
+}
+
+.info .email h4{
+    color: white;
+    position: relative;
+    bottom: 28px;
+    right: 10px;
+}
+.info span {
+    color: white;
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+
+.info .social ul li{
+    display: inline-block;
+}
+
+.info .email {
+    position: relative;
+    left: 1100px;
+}
+
+.info .social {
+    position: relative;
+    left: 1090px;
+}
+
+.info .social  a img {
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
+
+}
+.info span {
+    color: white;
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+
+.info .social ul li{
+    display: inline-block;
+}
+
+.info .email {
+    position: relative;
+    left: 1100px;
+}
+
+.info .social {
+    position: relative;
+    left: 1090px;
+}
+
+.info .social  a img {
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
+
+}
+.info .social  a img:hover {
+    transition: 0.5s;
+    width: 33px;
+    height: 33px;
+}
+.name {
+    color: white;
+    position: relative;
+    right: 420px;
+    margin-top: 20px;
+}
+

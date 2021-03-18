@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url('image/background3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}
+body ul {
+    list-style: none;
+}
+
+
+
+.header .nar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    background-color: black;
+}
+
+.header .logo a {
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+}
+
+.header .menu ul {
+    margin-left: 700px;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    margin-left: 60px;
+    align-items: center;
+}
+
+.header .menu ul li a{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.header .menu ul li a:hover {
+    color: dodgerblue;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+
+}
+
+.header .logo a {
+    font-size: 25px;
+}
+
+.header .logo span {
+    position: relative;
+    bottom: 5px;
+    transition: 0.5s;
+
+}
+.header .logo span:hover {
+    transition: 0.5s;
+    color: cornflowerblue;
+    border-radius: 40px;
+}
+.banner {
+    width: 250px;
+    height: 180px;
+    border-radius: 50px;
+}
+
+
+.banner {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.banner .text #annie {
+
+}
+
+@keyframes pulse {
+    0%, 10% {
+        background-color: greenyellow;
+    }
+    11%,20% {
+        background-color: white;
+    }
+    20%, 40% {
+        background-color: deepskyblue;
+    }
+    41%, 60% {
+        background-color: darksalmon;
+    }
+    61%, 80% {
+        background-color: blueviolet;
+    }
+    81%, 100% {
+        background-color: dimgray;
+    }
+}
+
+#text {
+    color: white;
+}
+
+.banner .text span {
+    color: white;
+}
+
+.banner .text img {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#annie {
+    color: indianred;
+}
+
+.banner h3 {
+    color: white;
+
+}
+
+.banner .text h3 {
+    animation: chuChay 1.75s forwards;
+    transition: 1s;
+}
+
+@keyframes chuChay {
+    from {
+        opacity: 0;
+        margin-right: -500px;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.banner .text #word {
+    animation: chuChay1 1.75s forwards;
+    transition: 1s;
+}
+@keyframes chuChay1 {
+    from {
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.banner .text #word  {
+    color: indianred;
+}
+.banner .text #text {
+    color: black;
+}
+
+
+.info {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+
+}
+
+.info {
+    position: relative;
+    top: 630px;
+
+}
+
+.info .email form input[type="submit"] {
+    position: relative;
+    top: 18px;
+    right: 73px;
+}
+
+.info .email form input[type="submit"] {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: inset deepskyblue;
+}
+
+.info {
+    display: flex;
+}
+
+.info .email h4{
+    color: white;
+    position: relative;
+    bottom: 28px;
+    right: 10px;
+}
+.info span {
+    color: white;
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+
+.info .social ul li{
+    display: inline-block;
+}
+
+.info .email {
+    position: relative;
+    left: 1100px;
+}
+
+.info .social {
+    position: relative;
+    left: 1090px;
+}
+
+.info .social  a img {
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
+
+}
+.info .social  a img:hover {
+    transition: 0.5s;
+    width: 33px;
+    height: 33px;
+}
+
+.info .social #facebook {
+    position: relative;
+    bottom: 1px;
+}
+
+
+.name {
+    color: white;
+    position: relative;
+    top: 570px;
+}
